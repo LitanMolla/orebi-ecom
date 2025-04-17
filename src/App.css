@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+@theme{
+  /* spacing */
+  --spacing-cw: 1320px;
+
+  /* Colors */
+  --color-primary: #262626;
+  --color-hover: #767676;
+  --color-footer: #F5F5F3;
+  /* Fonts */
+  --font-dm: "DM Sans", sans-serif;
+}
