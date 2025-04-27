@@ -6,6 +6,7 @@ import Menu from '../components/Menu'
 import Bar from '../components/icons/Bar'
 import Flex from '../components/Flex'
 import { FaSearch,FaUser,FaCaretDown,FaShoppingCart } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 
 
@@ -17,7 +18,7 @@ const Header = () => {
       <Container>
       <div className="flex justify-between items-center">
         <div className="">
-          <Image src={logo} alt={'Logo'}/>
+          <Link to={'/'}><Image src={logo} alt={'Logo'}/></Link>
         </div>
         <div className="m-auto">
           <Menu/>
