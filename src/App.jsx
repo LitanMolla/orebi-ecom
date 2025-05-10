@@ -4,6 +4,8 @@ import './App.css'
 import Home from './pages/Home'
 import RootLayout from './layouts/RootLayout'
 import NotFoun from './layouts/NotFoun'
+import Contact from './pages/Contact'
+import Login from './pages/Login'
 
 function App() {
 
@@ -11,7 +13,9 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<RootLayout/>}>
-          <Route path='/' element={<Home/>}/>
+          <Route index element={<Home/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/login' element={<Login/>}/>
           <Route path='*' element={<NotFoun/>}/>
         </Route>
       </Routes>

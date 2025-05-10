@@ -6,7 +6,7 @@ import { LuRefreshCcw } from "react-icons/lu";
 const Product = ({img,alt,title,price,badge}) => {
   return (
     <>
-    <div className="w-[305px] group duration-500 transition-all">
+    <div className="w-full group duration-500 transition-all border border-gray-200">
         <div className="relative">
             <img src={img} alt={alt} className='w-full'/>
             <span className='py-2 px-8 bg-black text-white font-bold text-sm absolute top-5 left-5'>{badge}</span>
@@ -25,7 +25,7 @@ const Product = ({img,alt,title,price,badge}) => {
                 </div>
             </div>
         </div>
-        <div className="flex justify-between items-center mt-6 mb-11">
+        <div className="flex justify-between items-center mt-6 mb-11 px-2">
             <h4 className='text-[20px] font-bold'>{title}</h4>
             <p className='text-base text-[#767676}'>{price}</p>
         </div>

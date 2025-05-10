@@ -8,7 +8,7 @@ const HomeProduct = () => {
     <>
         <div className="mb-32">
             <Container>
-                <div className="flex justify-between flex-wrap">
+                <div className="flex space-x-4">
                     <Product img={product1} title={'Basic Crew Neck Tee'} price={'$44.00'} badge={'New'}/>
                     <Product img={product1} title={'Basic Crew Neck Tee'} price={'$44.00'} badge={'New'}/>
                     <Product img={product1} title={'Basic Crew Neck Tee'} price={'$44.00'} badge={'New'}/>
