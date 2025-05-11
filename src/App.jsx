@@ -6,6 +6,7 @@ import RootLayout from './layouts/RootLayout'
 import NotFoun from './layouts/NotFoun'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
+import SignUp from './pages/SignUp'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/login' element={<Login/>}/>
+          <Route path='/signup' element={<SignUp/>}/>
           <Route path='*' element={<NotFoun/>}/>
         </Route>
       </Routes>
