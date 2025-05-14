@@ -38,7 +38,7 @@ const Arrivals = () => {
             <Product
               img={item.thumbnail}
               title={item.title}
-              price={item.price}
+              price={`$${item.price}`}
               badge={`${item.discountPercentage} %`}
             />
           </div>

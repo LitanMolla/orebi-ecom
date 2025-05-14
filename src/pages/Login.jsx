@@ -29,7 +29,7 @@ const Login = () => {
                     <hr className='border-0 h-[2px] bg-gray-300 mt-18 mb-15' />
                 <h3 className='font-bold text-[39px] '>New Customer</h3>
                 <p className='w-1/2 text-[#767676] my-10 pr-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
-                <Btn text={'Continue'} />
+                <Link to={'/signup'}><Btn text={'Continue'} /></Link>
             </Container>
         </div>
     </>
